@@ -6,20 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
-
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
+    <link rel="stylesheet" href="css/animate.css">   
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-
     <link rel="stylesheet" href="css/aos.css">
-
     <link rel="stylesheet" href="css/ionicons.min.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiperStyles.css">
+    
   </head>
   <body>
 
@@ -46,79 +45,7 @@
               <h2>Checkout some of my work</h2>
             </div>
           </div>
-          <div class="row no-gutters">
-
-	          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-	            <a href="http://pinch.gaptech.co" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
-	            </a>
-	            <div class="text">
-	              <h2 class="heading"><a href="http://pinch.gaptech.co">ENPIRE Pinch Analysis Tool</a></h2>
-                <p style="font-size: 16px">Web application used by Petroleum Refineries to measure performance and efficiencies of heat exchanger netrworks. </p>
-                <p style="font-size: 16px"> ► Cross field validation ► Dynamic form field generation ► 2 ways to enter data ► Interacive Charting ► Reporting ► Saving and loading cases ► adding comments ► sample cases</p>
-                
-	              <p><a href="http://pinch.gaptech.co">View Live Project</a></p>
-	            </div>
-            </div>
-            
-	          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-	            <a href="http://freshkom.somee.com" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/work-2.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
-	            </a>
-	            <div class="text order-1">
-	              <h2 class="heading"><a href="http://freshkom.somee.com">Freshkom Application</a></h2>
-	              <p>An application specified for selling fresh fish from fishermen directly by connecting fishermen with cliends through delivery men managed by delivery companies.</p>
-                <p style="font-size: 16px"> ► Control panel with roles for admins, fishermen, delivery companies ► Tracking locations ► Notifying orders ► Premium system with 3 packages ► Payment reporting ► Saving and loading cases ► Matching between fishermen and nearest delivery men </p>               
-                <p><a href="http://freshkom.somee.com">View Project Demo</a></p>
-	            </div>
-            </div>
-            
-	          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-	            <a href="http://mycar.somee.com" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-3.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
-	            </a>
-	            <div class="text">
-	              <h2 class="heading"><a href="http://mycar.somee.com">My Car Application - ITI Graduation Project</a></h2>
-	              <p>An application for byuing and selling used cars and spare parts, hiring or getting hired as technician and searching for nearest branches of each car brand</p>
-                <p style="font-size: 16px"> ► Admin reviewal for each advert ►Complete control of adverts from profile page</p>                              
-                <p><a href="http://mycar.somee.com">View Project Demo</a></p>
-	            </div>
-            </div>
-
-            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-	            <a href="https://ahmed-adel3.github.io/Simple_JS_Quiz" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/work-5.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
-	            </a>
-	            <div class="text order-1">
-	              <h2 class="heading"><a href="https://ahmed-adel3.github.io/Simple_JS_Quiz">Quiz Game</a></h2>
-	              <p>Javascript(ES6) Multi choice question, Question are fetched from Open Trivia database https://opentdb.com/ .... and can also be loaded from the (questions.json) file</p>
-	              <p><a href="https://ahmed-adel3.github.io/Simple_JS_Quiz">Try Quiz</a></p>
-	            </div>
-            </div>
-            
-            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-                <a href="https://ahmed-adel3.github.io/Memory_Game" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-3.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
-                </a>
-                <div class="text">
-                  <h2 class="heading"><a href="https://ahmed-adel3.github.io/Memory_Game">Memory Game</a></h2>
-                  <p>Javascript memory game with 4 themes , solve it in 1 minute (ITI Javascript task)</p>
-                  <p><a href="https://ahmed-adel3.github.io/Memory_Game">Try Game</a></p>
-                </div>
-              </div>
-
-
-	        </div>
-	        <!-- <div class="row mt-5">
-	          <div class="col text-center">
-	            <div class="block-27">
-	              <ul>
-	                <li><a href="#">&lt;</a></li>
-	                <li class="active"><span>1</span></li>
-	                <li><a href="#">2</a></li>
-	                <li><a href="#">3</a></li>
-	                <li><a href="#">4</a></li>
-	                <li><a href="#">5</a></li>
-	                <li><a href="#">&gt;</a></li>
-	              </ul>
-	            </div>
-	          </div>
-	        </div> -->
+          <div class="row no-gutters" id="mainContainer"></div>
         </div>
       </section>
       
@@ -149,18 +76,18 @@
 
     </div>
 
-
+    <script src="js/data.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/swiper.min.js"></script>
     <script src="js/main.js"></script>
+    
     
   </body>
 </html>
