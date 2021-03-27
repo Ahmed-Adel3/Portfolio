@@ -2217,14 +2217,14 @@ Hammer.defaults = {
          * @type {String}
          * @default 'none'
          */
-        userSelect: 'none',
+        //userSelect: 'none',
 
         /**
          * Disable the Windows Phone grippers when pressing an element.
          * @type {String}
          * @default 'none'
          */
-        touchSelect: 'none',
+        //touchSelect: 'none',
 
         /**
          * Disables the default callout shown when you touch and hold a touch target.
